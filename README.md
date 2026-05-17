@@ -4,7 +4,7 @@
 
 <br/>
 
-> *My goal is to engineer intelligence that feels inherently human."*
+ *My goal is to engineer intelligence that feels inherently human.*
 
 <br/>
 
