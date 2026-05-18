@@ -41,7 +41,7 @@ prakhar = {
 <tr>
 <td width="50%" valign="top">
 
-### 🎙️ [Qualif-AI](https://github.com/theprakhar211/qualif-ai) — AI Interview Simulator
+### 🎙️ [Qualif-AI](https://github.com/theprakhar211/qualif-ai-public) — AI Interview Simulator
 
 Voice-first mock interview platform with a real evaluation engine — not just a chatbot.
 
@@ -57,7 +57,7 @@ Voice-first mock interview platform with a real evaluation engine — not just a
 </td>
 <td width="50%" valign="top">
 
-### 🎮 [CodeQuest](https://github.com/theprakhar211/codequest) — Programming Learning Game
+### 🎮 [CodeQuest](https://github.com/theprakhar211/codequest-public) — Programming Learning Game
 
 Quest-based coding game that teaches through challenge, not tutorials.
 
