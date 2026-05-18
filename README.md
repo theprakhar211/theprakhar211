@@ -41,8 +41,7 @@ prakhar = {
 <tr>
 <td width="50%" valign="top">
 
-### 🎙️ [Qualif-AI](https://github.com/theprakhar211/qualif-ai)
-**AI Interview Simulator**
+### 🎙️ [Qualif-AI](https://github.com/theprakhar211/qualif-ai) — AI Interview Simulator
 
 Voice-first mock interview platform with a real evaluation engine — not just a chatbot.
 
@@ -53,19 +52,20 @@ Voice-first mock interview platform with a real evaluation engine — not just a
 - ✅ **103 automated tests** — caught 5 real bugs
 
 [![Demo](https://img.shields.io/badge/Live_Demo-▶-0ea5e9?style=flat-square)](https://qualif-smart-ai.vercel.app)
-[![Repo](https://img.shields.io/badge/GitHub-Code-333?style=flat-square&logo=github)](https://github.com/theprakhar211/qualif-ai)
+[![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20Qualif-AI)
 
 </td>
 <td width="50%" valign="top">
 
-### 🎮 [CodeQuest](https://github.com/theprakhar211/CodeQuest)
-**Programming Learning Game**
+### 🎮 [CodeQuest](https://github.com/theprakhar211/codequest) — Programming Learning Game
 
 Quest-based coding game that teaches through challenge, not tutorials.
 
 - ⚙️ Custom real-time solution evaluator
 - 🗺️ Quest-based concept progression
 - 🕹️ Built entirely in Godot + GDScript
+
+[![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20CodeQuest)
 
 <br/>
 
@@ -79,6 +79,9 @@ Go head-to-head with an AI that pushes back. An independent judge scores both si
 </td>
 </tr>
 </table>
+
+> 💡 **Note:** My project repositories are kept private to protect ongoing development.
+> Code is available upon request — just shoot me an [email](mailto:theprakhar211@gmail.com).
 
 ---
 
@@ -120,7 +123,7 @@ Go head-to-head with an AI that pushes back. An independent judge scores both si
 
 ## 📊 GitHub Stats
 
-<!-- Uncomment when repos are public and contributions are stronger -->
+<!-- Uncomment when ready -->
 <!--
 <div align="center">
 
@@ -141,7 +144,7 @@ Go head-to-head with an AI that pushes back. An independent judge scores both si
 
 ```
 📖 Reading    →  The Love Hypothesis — Ali Hazelwood
-🎵 Listening  →  Arz Kiya Hai — Anuv Jain
+🎵 Listening  →  Arz Kiya Hai — Anuv Jain  
 📺 Watching   →  Hunter × Hunter
 📚 Manga      →  Omniscient Reader's Viewpoint
 ✍️  Writing    →  Poetry — where logic meets rhythm
