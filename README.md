@@ -27,7 +27,7 @@ prakhar = {
     "role"      : "CSE-AI Student · 3rd Year",
     "location"  : "Bhopal, India 🇮🇳",
     "focus"     : ["Applied AI", "Full-Stack Dev", "Game Dev"],
-    "building"  : "DebateAI — AI-powered debate platform 🔥",
+    "building"  : "agAInst — AI-powered debate platform 🔥",
     "open_to"   : ["Internships", "AI/ML roles", "Remote"],
     "fun_fact"  : "I write poetry and code in equal measure ✍️"
 }
@@ -35,46 +35,54 @@ prakhar = {
 
 ---
 
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## 🚀 Featured Project
 
 ### 🎙️ [Qualif-AI](https://github.com/theprakhar211/qualif-ai-public) — AI Interview Simulator
 
 Voice-first mock interview platform with a real evaluation engine — not just a chatbot.
 
-- 🧮 **Blended scoring** — 72% LLM + 28% deterministic
-- 🧠 **Skill graph** — 35+ skills, exponential weighting
-- 📊 **Answer benchmarking** vs cached ideal responses
-- 🔐 **Prompt injection** protection built-in
-- ✅ **103 automated tests** — caught 5 real bugs
+- 🧮 **Hybrid scoring engine** — combines LLM scoring, deterministic keyword coverage, and semantic similarity analysis
+- 🧠 **Resume-aware question generation** via Llama 3.3 70B across a 4-phase interview workflow
+- 🔐 **Prompt injection protection** — secured endpoints with regex sanitization and automated fallback handling for malformed LLM outputs
+- ✅ **103 automated tests** via GitHub Actions CI/CD — intercepted 5 critical production bugs before deployment
 
 [![Demo](https://img.shields.io/badge/Live_Demo-▶-0ea5e9?style=flat-square)](https://qualif-smart-ai.vercel.app)
 [![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20Qualif-AI)
 
-</td>
+---
+
+## 🗂️ More Projects
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
-### 🎮 [CodeQuest](https://github.com/theprakhar211/codequest-public) — Programming Learning Game
-
-Quest-based coding game that teaches through challenge, not tutorials.
-
-- ⚙️ Custom real-time solution evaluator
-- 🗺️ Quest-based concept progression
-- 🕹️ Built entirely in Godot + GDScript
-
-[![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20CodeQuest)
-
-<br/>
-
-### ⚔️ DebateAI *(In Progress)*
-**AI Debate Platform**
+### ⚔️ [agAInst](https://github.com/theprakhar211/against-public) — AI Debate Platform
 
 Go head-to-head with an AI that pushes back. An independent judge scores both sides on logic, not confidence.
 
-[![Soon](https://img.shields.io/badge/Status-Building_🔨-f59e0b?style=flat-square)]()
+- 🤖 **Multi-agent design** — dedicated Debater, Judge, and Analyzer LLM agents communicating through structured JSON workflows
+- ⚡ **Reduced latency** by parallelizing analyzer workflows via `Promise.all()` and implementing verdict caching
+- 🛡️ **Stateless API architecture** processing full conversation histories with built-in retry logic for LLM parse failures
+- 📄 **Fallacy detection**, PDF transcript export, and local 2-player mode with screen-blur turn handoff
+
+[![Demo](https://img.shields.io/badge/Live_Demo-▶-0ea5e9?style=flat-square)](https://against-ai.vercel.app)
+[![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20agAInst)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎮 [CodeQuest](https://github.com/theprakhar211/codequest-public) — Programming Learning Game *(In Progress)*
+
+Quest-based coding game that teaches through challenge, not tutorials.
+
+- 🐍 **Code sandbox** — players solve puzzles by writing real Python, evaluated safely via a custom in-game console
+- 🗺️ **Modular subsystems** for movement, dialogue, and quest management using data-driven design for seamless content scaling
+- ⚙️ **Extensible engine** — new programming challenges can be added dynamically without modifying core game code
+- 🕹️ Built entirely in Godot + GDScript
+
+[![Status](https://img.shields.io/badge/Status-Building_🔨-f59e0b?style=flat-square)]()
+[![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20CodeQuest)
 
 </td>
 </tr>
@@ -96,25 +104,40 @@ Go head-to-head with an AI that pushes back. An independent judge scores both si
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
+![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-**Frameworks & Databases**
+**AI/ML & Orchestration**
+
+![Llama](https://img.shields.io/badge/Llama_3-7C3AED?style=for-the-badge&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0ea5e9?style=for-the-badge&logoColor=white)
+![Multi--Agent](https://img.shields.io/badge/Multi--Agent_Workflows-14b8a6?style=for-the-badge&logoColor=white)
+![Speech to Text](https://img.shields.io/badge/Speech--to--Text-8b5cf6?style=for-the-badge&logoColor=white)
+
+**Backend & APIs**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logoColor=white)
+
+**Frontend & UI**
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+**Databases & Cloud**
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**AI & Cloud**
-
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-**Tools**
+**Tools & DevOps**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 
 </div>
@@ -145,7 +168,7 @@ Go head-to-head with an AI that pushes back. An independent judge scores both si
 ```
 📖 Reading    →  The Love Hypothesis — Ali Hazelwood
 🎵 Listening  →  Arz Kiya Hai — Anuv Jain  
-📺 Watching   →  Hunter × Hunter
+📺 Watching   →  Suits
 📚 Manga      →  Omniscient Reader's Viewpoint
 ✍️  Writing    →  Poetry — where logic meets rhythm
 ```
