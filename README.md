@@ -26,9 +26,9 @@
 prakhar = {
     "role"      : "CSE-AI Student · 3rd Year",
     "location"  : "Bhopal, India 🇮🇳",
-    "focus"     : ["Applied AI", "Full-Stack Dev", "Game Dev"],
-    "building"  : "agAInst — AI-powered debate platform 🔥",
-    "open_to"   : ["Internships", "AI/ML roles", "Remote"],
+    "focus"     : ["Applied AI", "Full-Stack Dev", "LLM Systems"],
+    "building"  : "QualifAI — voice-first AI interview simulator 🎙️",
+    "open_to"   : ["Internships", "AI/ML roles", "Full-Stack", "Remote"],
     "fun_fact"  : "I write poetry and code in equal measure ✍️"
 }
 ```
@@ -39,12 +39,13 @@ prakhar = {
 
 ### 🎙️ [Qualif-AI](https://github.com/theprakhar211/qualif-ai-public) — AI Interview Simulator
 
-Voice-first mock interview platform with a real evaluation engine — not just a chatbot.
+Voice-first mock interview platform with a real evaluation engine — not just a chatbot wrapper.
 
-- 🧮 **Hybrid scoring engine** — combines LLM scoring, deterministic keyword coverage, and semantic similarity analysis
-- 🧠 **Resume-aware question generation** via Llama 3.3 70B across a 4-phase interview workflow
-- 🔐 **Prompt injection protection** — secured endpoints with regex sanitization and automated fallback handling for malformed LLM outputs
-- ✅ **103 automated tests** via GitHub Actions CI/CD — intercepted 5 critical production bugs before deployment
+- 🧮 **Hybrid scoring engine** — 72% LLM + 28% deterministic (keyword coverage, structure detection, depth penalty) producing calibrated, explainable scores
+- 🛡️ **5-layer prompt injection defence** — regex sanitization, XML delimiters, system prompt rules, score floor, and LLM classifier
+- 🧠 **Adaptive skill graph** tracking mastery across 35+ skills with exponentially weighted scoring; resume-aware 4-phase interview flow via Llama 3.3 70B
+- 🔗 **Shareable result cards**, guest demo mode, per-user JWT-keyed rate limiting, and Sentry error monitoring
+- ✅ **248 automated tests at 81% coverage** — pytest + Playwright E2E via GitHub Actions CI/CD
 
 [![Demo](https://img.shields.io/badge/Live_Demo-▶-0ea5e9?style=flat-square)](https://qualif-smart-ai.vercel.app)
 [![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20Qualif-AI)
@@ -57,28 +58,28 @@ Voice-first mock interview platform with a real evaluation engine — not just a
 <tr>
 <td width="50%" valign="top">
 
-### ⚔️ [agAInst](https://github.com/theprakhar211/against-public) — AI Debate Platform
+### ⚔️ [agAInst (AI Debate Platform)](https://github.com/theprakhar211/against-public)
 
 Go head-to-head with an AI that pushes back. An independent judge scores both sides on logic, not confidence.
 
-- 🤖 **Multi-agent design** — dedicated Debater, Judge, and Analyzer LLM agents communicating through structured JSON workflows
-- ⚡ **Reduced latency** by parallelizing analyzer workflows via `Promise.all()` and implementing verdict caching
-- 🛡️ **Stateless API architecture** processing full conversation histories with built-in retry logic for LLM parse failures
-- 📄 **Fallacy detection**, PDF transcript export, and local 2-player mode with screen-blur turn handoff
+- 🤖 **Multi-agent pipeline** — three independent LLM agents (Debater, Judge, Analyser) with distinct system prompts; Analyser parallelized via `Promise.all()` to eliminate per-round latency
+- 🔴 **Real-time PvP** via Supabase Realtime (postgres_changes) with share-link rooms and automated stale room cleanup via pg_cron
+- 🛡️ **Production hardened** — per-IP rate limiting, prompt injection sanitization, 35s timeouts with client-side retry UI, and JSON output validation with retry logic
+- 🔐 Guest-to-user data migration on login; shareable verdict links with no auth required
 
-[![Demo](https://img.shields.io/badge/Live_Demo-▶-0ea5e9?style=flat-square)](https://against-ai.vercel.app)
+[![Demo](https://img.shields.io/badge/Live_Demo-▶-0ea5e9?style=flat-square)](https://against-debate.vercel.app)
 [![Code](https://img.shields.io/badge/Code-Available_on_Request-64748b?style=flat-square&logo=github)](mailto:theprakhar211@gmail.com?subject=Code%20Request%20-%20agAInst)
 
 </td>
 <td width="50%" valign="top">
 
-### 🎮 [CodeQuest](https://github.com/theprakhar211/codequest-public) — Programming Learning Game *(In Progress)*
+### 🎮 [CodeQuest: Syntax Scrolls](https://github.com/theprakhar211/codequest-public) *(In Progress)*
 
-Quest-based coding game that teaches through challenge, not tutorials.
+Quest-based 2D RPG that teaches kids Python through challenge, not tutorials.
 
-- 🐍 **Code sandbox** — players solve puzzles by writing real Python, evaluated safely via a custom in-game console
+- 🐍 **Code sandbox** — players solve puzzles by writing real executable Python, evaluated safely via a custom in-game console engine
 - 🗺️ **Modular subsystems** for movement, dialogue, and quest management using data-driven design for seamless content scaling
-- ⚙️ **Extensible engine** — new programming challenges can be added dynamically without modifying core game code
+- ⚙️ **Extensible challenge system** — new programming puzzles added dynamically without modifying core engine code
 - 🕹️ Built entirely in Godot + GDScript
 
 [![Status](https://img.shields.io/badge/Status-Building_🔨-f59e0b?style=flat-square)]()
@@ -111,8 +112,9 @@ Quest-based coding game that teaches through challenge, not tutorials.
 ![Llama](https://img.shields.io/badge/Llama_3-7C3AED?style=for-the-badge&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0ea5e9?style=for-the-badge&logoColor=white)
-![Multi--Agent](https://img.shields.io/badge/Multi--Agent_Workflows-14b8a6?style=for-the-badge&logoColor=white)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Systems-14b8a6?style=for-the-badge&logoColor=white)
 ![Speech to Text](https://img.shields.io/badge/Speech--to--Text-8b5cf6?style=for-the-badge&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-0f172a?style=for-the-badge&logoColor=white)
 
 **Backend & APIs**
 
@@ -125,19 +127,25 @@ Quest-based coding game that teaches through challenge, not tutorials.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 **Databases & Cloud**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-**Tools & DevOps**
+**DevOps & Testing**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 
 </div>
@@ -146,8 +154,6 @@ Quest-based coding game that teaches through challenge, not tutorials.
 
 ## 📊 GitHub Stats
 
-<!-- Uncomment when ready -->
-<!--
 <div align="center">
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=theprakhar211&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&count_private=true" />
@@ -159,7 +165,6 @@ Quest-based coding game that teaches through challenge, not tutorials.
 <img src="https://streak-stats.demolab.com?user=theprakhar211&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" />
 
 </div>
--->
 
 ---
 
@@ -167,7 +172,7 @@ Quest-based coding game that teaches through challenge, not tutorials.
 
 ```
 📖 Reading    →  The Love Hypothesis — Ali Hazelwood
-🎵 Listening  →  Arz Kiya Hai — Anuv Jain  
+🎵 Listening  →  Arz Kiya Hai — Anuv Jain
 📺 Watching   →  Suits
 📚 Manga      →  Omniscient Reader's Viewpoint
 ✍️  Writing    →  Poetry — where logic meets rhythm
